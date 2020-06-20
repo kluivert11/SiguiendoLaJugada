@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single">
+        <item android:title="Ligas de futbol">
+            <menu>
+        <item
+            android:id="@+id/page_independiente"
+            android:title="Liga independiente 1ra"
+            />
+        <item
+            android:id="@+id/page_veteranos"
+            android:title="Liga veteranos B"
+            />
+         <item
+            android:id="@+id/page_multimedia"
+            android:title="Contenido multimedia"
+            />
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="Contacto">
+        <menu>
+            <item
+                android:id="@+id/page_escribenos"
+
+                android:title="Escribenos"/>
+            <item
+                android:id="@+id/page_contacto"
+
+                android:title="Acerca de"/>
+        </menu>
+    </item>
+</menu>
+
